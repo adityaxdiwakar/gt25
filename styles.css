@@ -14,10 +14,16 @@ body,html {
 }
 
 
-.class-title {
+.column {
     position: absolute;
-    left: 15%;
-    top: 18%;
+    height:100%;
+    left:15%;
+
+}
+
+.class-title {
+    margin: 25% auto;
+    margin-bottom: 0%;
 
     background: rgba(111, 111, 111, 0.66);
     border-radius: 27px;
@@ -25,7 +31,26 @@ body,html {
     padding: 30px 100px;
 }
 
-.college, .year {
+.join-box {
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    width: 66%;
+
+    background: rgba(111, 111, 111, 0.66);
+    border-radius: 27px;
+
+    padding: 30px;
+}
+
+.logo {
+    display: inline-block;
+    height: 40px;
+    vertical-align: -9px;
+    margin-left: 15px;
+}
+
+.college, .year, span {
     text-align: center;
     font-family: Lato;
     font-style: normal;
@@ -37,13 +62,16 @@ body,html {
 }
 
 .year {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
     font-size: 120px;
     /* identical to box height */
 
     letter-spacing: 0.2em;
 
-    color: #FFFFFF;
 }
+ span {
+    font-size: 30px;
+ }
+ 
+ a {
+        text-decoration:none;
+    }
