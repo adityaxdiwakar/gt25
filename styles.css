@@ -1,11 +1,49 @@
-.background {
-    position: absolute;
-    width: 100%;
+body,html {
     height: 100%;
-    left: 0px;
-    top: 0px;
+    margin: 0;
+}
 
-    background: url(assets/bg.png);
-    mix-blend-mode: normal;
-    filter: blur(12px);
+.background {
+    background-image: url(assets/bg.png);
+
+    height: 100%;
+
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+.class-title {
+    position: absolute;
+    left: 15%;
+    top: 18%;
+
+    background: rgba(111, 111, 111, 0.66);
+    border-radius: 27px;
+
+    padding: 30px 100px;
+}
+
+.college, .year {
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0px;
+
+    color: #FFFFFF;
+}
+
+.year {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    /* identical to box height */
+
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
 }
